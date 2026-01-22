@@ -157,6 +157,6 @@ class ServerNegotiator implements NegotiatorInterface {
      * it is not a requirement. This is an implementation detail.
      */
     function setStrictSubProtocolCheck($enable) {
-        $this->_strictSubProtocols = (boolean)$enable;
+        $this->_strictSubProtocols = (bool)$enable;
     }
 }
